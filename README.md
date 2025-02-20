@@ -28,3 +28,37 @@ EXAMPLE : If the defined number is 15, then the output must be as:
 ![image](https://user-images.githubusercontent.com/42895382/156782712-6b9cb98c-8e52-490f-8f3d-69c5b3f7edda.png)
 <br><br>
 
+## Sixth Project :
+
+# 🔠 Alphabetical Comparison Program in Assembly  
+
+This project is a text input program developed using Assembly language. It takes input from the user, compares it with a specific word, and prints characters that match certain letters in the alphabet.  
+
+## 🚀 How to Run  
+
+1. **Compile the code using an Assembly compiler (e.g., NASM or TASM).**  
+2. **The code is designed to run in a DOS environment. Use DOSBox or a similar emulator.**  
+3. **The program waits for user input.**  
+4. **It compares the entered word with "TERMINATE".**  
+5. **The comparison result is displayed on the screen.**  
+
+## 🔍 Code Explanation  
+
+- `alphabet` variable: Stores letters "A-Z" in memory.  
+- `terminate` variable: Checks if the user input matches "TERMINATE".  
+- `get_word` section: Takes input from the user.  
+- `print` section: Compares the user input with the alphabet and prints the results.  
+- `clear_loop`: Clears the allocated memory for new input.  
+
+## 💻 Requirements  
+
+- **DOS environment or DOSBox emulator**  
+- **TASM (Turbo Assembler) or NASM compiler**  
+
+## 📌 Example Execution  
+
+```txt
+ENTER INPUT: HELLO  
+HELLO > H, E, L, L, O  
+
+
